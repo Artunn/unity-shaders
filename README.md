@@ -1,5 +1,5 @@
 <h1>Unity Shaders</h1>
-This repository contains different kind of shaders with explanations. They will usually be from the <i>youtube tutorials</i> I watched, <i>articles</i>  I read or the things I learned during <i>CS 465 - Computer Graphics I</i> course.
+This repository contains different kind of shaders with explanations. They will usually be from the youtube tutorials I watched, articles I read or the things I learned during <i>CS 465 - Computer Graphics I</i> course.
 
 <h3>Flat</h3>
 In this shader fragment program returns the _Color property which is assigned from the Unity inspector. It doesn't make any further calculations, so whole object is that selected color.
