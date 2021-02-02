@@ -8,4 +8,4 @@ In this shader fragment program returns the _Color property which is assigned fr
 Lambertian shading uses object's normal and Light position to calculate a gradient coloring. It is important because it doesn't change according to the viewer's position(If we had a specular component we would need that). As these two vectors gets closer in the opposite direction, we get a brighter color. All vectors and results are normalized and clamped between 0 and 1.
 
 <h3>Direction based coloring</h3>
-Our game development team was talking about visuals which look like a ketchapp game (skyward) and I found this https://halisavakis.com/my-take-on-shaders-directional-coloring/ tutorial. I followed it and did little changes. It basically assigns one of the three selected colors according to the brightness of that vertex.
+Our game development team was talking about visuals which might look like a ketchapp game (skyward) and I found this https://halisavakis.com/my-take-on-shaders-directional-coloring/ tutorial. I followed it and did little changes. It basically assigns one of the three selected colors according to the brightness of that vertex.
